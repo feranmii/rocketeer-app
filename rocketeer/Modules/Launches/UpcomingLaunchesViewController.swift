@@ -28,7 +28,9 @@ final class UpcomingLaunchesViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        setupEvents()
+        if viewModel.upcomingLaunches.isEmpty {
+            setupEvents()
+        }
     }
 
     func setupViews() {

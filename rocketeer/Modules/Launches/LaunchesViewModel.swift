@@ -5,22 +5,22 @@
 //  Created by Feranmi on 25/12/2021.
 //
 
-import RxSwift
 import Foundation
+import RxSwift
 
 final class LaunchesViewModel {
     var isFetching = PublishSubject<Bool>()
     var isFetchingCompleted = PublishSubject<Bool>()
-    
+
     var isFetchingUpcoming = PublishSubject<Bool>()
     var isFetchingUpcomingCompleted = PublishSubject<Bool>()
-    
+
     let disposeBag = DisposeBag()
     let apiClient: APIClient?
 
     var upcomingLaunches = [LaunchDoc]()
     var successfulLaunches = [LaunchDoc]()
-    
+
     let dateFormatter = DateFormatter()
 
     init(apiClient: APIClient) {
@@ -32,11 +32,12 @@ final class LaunchesViewModel {
         guard let apiClient = apiClient else {
             return
         }
-        
+
         guard let startDate = dateFormatter.date(from: startDate),
-           let endDate = dateFormatter.date(from: endDate) else {
-               isFetchingUpcoming.onError(AppError.defaultError("Invalid Date"))
-               return
+              let endDate = dateFormatter.date(from: endDate)
+        else {
+            isFetchingUpcoming.onError(AppError.defaultError("Invalid Date"))
+            return
         }
 
         isFetchingUpcoming.onNext(true)
@@ -51,18 +52,19 @@ final class LaunchesViewModel {
                 self?.isFetchingUpcoming.onNext(false)
             }).disposed(by: disposeBag)
     }
-    
+
     func getSuccessfulLaunches(startDate: String, endDate: String) {
         guard let apiClient = apiClient else {
             return
         }
 
         guard let startDate = dateFormatter.date(from: startDate),
-           let endDate = dateFormatter.date(from: endDate) else {
-               isFetchingUpcoming.onError(AppError.defaultError("Invalid Date"))
-               return
+              let endDate = dateFormatter.date(from: endDate)
+        else {
+            isFetchingUpcoming.onError(AppError.defaultError("Invalid Date"))
+            return
         }
-        
+
         isFetching.onNext(true)
         apiClient.performRequest(LaunchesModel.self, .getSuccessfulLaunches(startDate: startDate.toFormattedString, endDate: endDate.toFormattedString))
             .observe(on: MainScheduler.instance)

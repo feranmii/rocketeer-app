@@ -84,8 +84,11 @@ final class APIClient {
         }
     }
 
-    static func loadImage(url: String, completion: @escaping ((UIImage) -> Void)) {
-        guard let url = URL(string: url) else { return }
+    static func loadImage(url: String, completion: @escaping ((UIImage) -> Void), failure: (() -> Void)? = nil) {
+        guard let url = URL(string: url) else {
+            failure?()
+            return
+        }
         DispatchQueue.global().async {
             if let data = try? Data(contentsOf: url) {
                 if let image = UIImage(data: data) {
@@ -93,6 +96,8 @@ final class APIClient {
                         completion(image)
                     }
                 }
+            } else {
+                failure?()
             }
         }
     }

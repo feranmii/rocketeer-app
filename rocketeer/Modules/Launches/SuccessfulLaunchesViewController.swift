@@ -18,7 +18,7 @@ final class SuccessfulLaunchesViewController: UIViewController {
         return indicator
     }()
     
-    var viewModel: LaunchesViewModel?
+    var viewModel: LaunchesViewModel!
     let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
@@ -28,7 +28,9 @@ final class SuccessfulLaunchesViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        setupEvents()
+        if viewModel.successfulLaunches.isEmpty {
+            setupEvents()
+        }
     }
     
     func setupViews() {
