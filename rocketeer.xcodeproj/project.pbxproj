@@ -9,13 +9,34 @@
 /* Begin PBXBuildFile section */
 		73DB90C12776380D003F4DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB90C02776380D003F4DD5 /* AppDelegate.swift */; };
 		73DB90C32776380D003F4DD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB90C22776380D003F4DD5 /* SceneDelegate.swift */; };
-		73DB90C52776380D003F4DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB90C42776380D003F4DD5 /* ViewController.swift */; };
 		73DB90C82776380D003F4DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DB90C62776380D003F4DD5 /* Main.storyboard */; };
 		73DB90CA27763810003F4DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DB90C927763810003F4DD5 /* Assets.xcassets */; };
 		73DB90CD27763810003F4DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DB90CB27763810003F4DD5 /* LaunchScreen.storyboard */; };
 		73DB90D827763811003F4DD5 /* rocketeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB90D727763811003F4DD5 /* rocketeerTests.swift */; };
 		73DB90E227763811003F4DD5 /* rocketeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB90E127763811003F4DD5 /* rocketeerUITests.swift */; };
 		73DB90E427763811003F4DD5 /* rocketeerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB90E327763811003F4DD5 /* rocketeerUITestsLaunchTests.swift */; };
+		73E730862776704E005857AD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730852776704E005857AD /* APIClient.swift */; };
+		73E730892776739B005857AD /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730882776739B005857AD /* Endpoints.swift */; };
+		73E7308B27767400005857AD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7308A27767400005857AD /* AppConstants.swift */; };
+		73E7308E27767AC3005857AD /* LaunchesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7308D27767AC3005857AD /* LaunchesModel.swift */; };
+		73E730A4277691F8005857AD /* SuccessfulLaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730A3277691F8005857AD /* SuccessfulLaunchesViewController.swift */; };
+		73E730A627769209005857AD /* RocketDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730A527769209005857AD /* RocketDetailsViewController.swift */; };
+		73E730A827769240005857AD /* LaunchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730A727769240005857AD /* LaunchesViewModel.swift */; };
+		73E730AA27769491005857AD /* UpcomingLaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730A927769491005857AD /* UpcomingLaunchesViewController.swift */; };
+		73E730AE27769A48005857AD /* UpcomingLaunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730AC27769A48005857AD /* UpcomingLaunchTableViewCell.swift */; };
+		73E730AF27769A48005857AD /* UpcomingLaunchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E730AD27769A48005857AD /* UpcomingLaunchTableViewCell.xib */; };
+		73E730B127769A68005857AD /* Ext+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730B027769A68005857AD /* Ext+UITableViewCell.swift */; };
+		73E730B42776A4D5005857AD /* SuccessfulLaunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730B22776A4D5005857AD /* SuccessfulLaunchTableViewCell.swift */; };
+		73E730B52776A4D5005857AD /* SuccessfulLaunchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E730B32776A4D5005857AD /* SuccessfulLaunchTableViewCell.xib */; };
+		73E730B82776A964005857AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730B72776A964005857AD /* MainViewController.swift */; };
+		73E730BA2776C0DC005857AD /* Ext+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730B92776C0DC005857AD /* Ext+UIView.swift */; };
+		73E730BC2776C44E005857AD /* Ext+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730BB2776C44E005857AD /* Ext+UIImageView.swift */; };
+		73E730C02776DDED005857AD /* Ext+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730BF2776DDED005857AD /* Ext+Date.swift */; };
+		73E730C22776DE18005857AD /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730C12776DE18005857AD /* Ext+String.swift */; };
+		73E730C42776FAB6005857AD /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E730C32776FAB6005857AD /* Ext+UIViewController.swift */; };
+		879AEC7F85FA504C8F15BD5E /* Pods_rocketeer_rocketeerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB72BF56F28C20FE06CA122A /* Pods_rocketeer_rocketeerUITests.framework */; };
+		B462845DAD5EBE396B8D8352 /* Pods_rocketeerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BC02A165ACF5B8FEB583D8 /* Pods_rocketeerTests.framework */; };
+		D1E9D5C6AD1F9170AA897042 /* Pods_rocketeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6BF7920FF6F245126609B3 /* Pods_rocketeer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C621BEBEAABF6528E95170D /* Pods-rocketeerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rocketeerTests.release.xcconfig"; path = "Target Support Files/Pods-rocketeerTests/Pods-rocketeerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C8AA0942AB995128A890BC7 /* Pods-rocketeer-rocketeerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rocketeer-rocketeerUITests.debug.xcconfig"; path = "Target Support Files/Pods-rocketeer-rocketeerUITests/Pods-rocketeer-rocketeerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2350857C4940FC829DC86EAD /* Pods-rocketeer-rocketeerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rocketeer-rocketeerUITests.release.xcconfig"; path = "Target Support Files/Pods-rocketeer-rocketeerUITests/Pods-rocketeer-rocketeerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E6BF7920FF6F245126609B3 /* Pods_rocketeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rocketeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		708C88A5542ED5A4D0A87653 /* Pods-rocketeerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rocketeerTests.debug.xcconfig"; path = "Target Support Files/Pods-rocketeerTests/Pods-rocketeerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73DB90BD2776380D003F4DD5 /* rocketeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rocketeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73DB90C02776380D003F4DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73DB90C22776380D003F4DD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73DB90C42776380D003F4DD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73DB90C72776380D003F4DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73DB90C927763810003F4DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73DB90CC27763810003F4DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +74,35 @@
 		73DB90DD27763811003F4DD5 /* rocketeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rocketeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73DB90E127763811003F4DD5 /* rocketeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rocketeerUITests.swift; sourceTree = "<group>"; };
 		73DB90E327763811003F4DD5 /* rocketeerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rocketeerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73E730852776704E005857AD /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		73E730882776739B005857AD /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		73E7308A27767400005857AD /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		73E7308D27767AC3005857AD /* LaunchesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesModel.swift; sourceTree = "<group>"; };
+		73E7308F27767E8D005857AD /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E7309027767E8D005857AD /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E7309127767E8D005857AD /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E7309927767F58005857AD /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E7309A27767F58005857AD /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E7309B27767F58005857AD /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E730A3277691F8005857AD /* SuccessfulLaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessfulLaunchesViewController.swift; sourceTree = "<group>"; };
+		73E730A527769209005857AD /* RocketDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailsViewController.swift; sourceTree = "<group>"; };
+		73E730A727769240005857AD /* LaunchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewModel.swift; sourceTree = "<group>"; };
+		73E730A927769491005857AD /* UpcomingLaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunchesViewController.swift; sourceTree = "<group>"; };
+		73E730AC27769A48005857AD /* UpcomingLaunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunchTableViewCell.swift; sourceTree = "<group>"; };
+		73E730AD27769A48005857AD /* UpcomingLaunchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingLaunchTableViewCell.xib; sourceTree = "<group>"; };
+		73E730B027769A68005857AD /* Ext+UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UITableViewCell.swift"; sourceTree = "<group>"; };
+		73E730B22776A4D5005857AD /* SuccessfulLaunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessfulLaunchTableViewCell.swift; sourceTree = "<group>"; };
+		73E730B32776A4D5005857AD /* SuccessfulLaunchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessfulLaunchTableViewCell.xib; sourceTree = "<group>"; };
+		73E730B72776A964005857AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		73E730B92776C0DC005857AD /* Ext+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIView.swift"; sourceTree = "<group>"; };
+		73E730BB2776C44E005857AD /* Ext+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIImageView.swift"; sourceTree = "<group>"; };
+		73E730BF2776DDED005857AD /* Ext+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Date.swift"; sourceTree = "<group>"; };
+		73E730C12776DE18005857AD /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
+		73E730C32776FAB6005857AD /* Ext+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
+		83F2E35BFE7425EBE03D3279 /* Pods-rocketeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rocketeer.release.xcconfig"; path = "Target Support Files/Pods-rocketeer/Pods-rocketeer.release.xcconfig"; sourceTree = "<group>"; };
+		94BC02A165ACF5B8FEB583D8 /* Pods_rocketeerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rocketeerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A21EAA1030C10936E86007 /* Pods-rocketeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rocketeer.debug.xcconfig"; path = "Target Support Files/Pods-rocketeer/Pods-rocketeer.debug.xcconfig"; sourceTree = "<group>"; };
+		EB72BF56F28C20FE06CA122A /* Pods_rocketeer_rocketeerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rocketeer_rocketeerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E9D5C6AD1F9170AA897042 /* Pods_rocketeer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B462845DAD5EBE396B8D8352 /* Pods_rocketeerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879AEC7F85FA504C8F15BD5E /* Pods_rocketeer_rocketeerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +140,8 @@
 				73DB90D627763811003F4DD5 /* rocketeerTests */,
 				73DB90E027763811003F4DD5 /* rocketeerUITests */,
 				73DB90BE2776380D003F4DD5 /* Products */,
+				EBF926990F73BD95F969B196 /* Pods */,
+				E02A1274E001462B3B9ADAC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +158,14 @@
 		73DB90BF2776380D003F4DD5 /* rocketeer */ = {
 			isa = PBXGroup;
 			children = (
+				73E7308427767018005857AD /* Extensions */,
+				73E7308327767011005857AD /* Utility */,
+				73E730822776700C005857AD /* Modules */,
+				73E7308127767002005857AD /* Models */,
+				73E7308027766FFC005857AD /* Network */,
+				73E7307F27766FEC005857AD /* Storyboards */,
 				73DB90C02776380D003F4DD5 /* AppDelegate.swift */,
 				73DB90C22776380D003F4DD5 /* SceneDelegate.swift */,
-				73DB90C42776380D003F4DD5 /* ViewController.swift */,
-				73DB90C62776380D003F4DD5 /* Main.storyboard */,
 				73DB90C927763810003F4DD5 /* Assets.xcassets */,
 				73DB90CB27763810003F4DD5 /* LaunchScreen.storyboard */,
 				73DB90CE27763810003F4DD5 /* Info.plist */,
@@ -127,6 +190,121 @@
 			path = rocketeerUITests;
 			sourceTree = "<group>";
 		};
+		73E7307F27766FEC005857AD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				73DB90C62776380D003F4DD5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		73E7308027766FFC005857AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				73E730852776704E005857AD /* APIClient.swift */,
+				73E730882776739B005857AD /* Endpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		73E7308127767002005857AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73E7308D27767AC3005857AD /* LaunchesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73E730822776700C005857AD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				73E730B62776A94C005857AD /* Main */,
+				73E7308C2776795D005857AD /* Launches */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		73E7308327767011005857AD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				73E7308A27767400005857AD /* AppConstants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		73E7308427767018005857AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73E730B027769A68005857AD /* Ext+UITableViewCell.swift */,
+				73E730B92776C0DC005857AD /* Ext+UIView.swift */,
+				73E730BB2776C44E005857AD /* Ext+UIImageView.swift */,
+				73E730BF2776DDED005857AD /* Ext+Date.swift */,
+				73E730C12776DE18005857AD /* Ext+String.swift */,
+				73E730C32776FAB6005857AD /* Ext+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73E7308C2776795D005857AD /* Launches */ = {
+			isa = PBXGroup;
+			children = (
+				73E730AB27769A07005857AD /* Cells */,
+				73E730A3277691F8005857AD /* SuccessfulLaunchesViewController.swift */,
+				73E730A527769209005857AD /* RocketDetailsViewController.swift */,
+				73E730A727769240005857AD /* LaunchesViewModel.swift */,
+				73E730A927769491005857AD /* UpcomingLaunchesViewController.swift */,
+			);
+			path = Launches;
+			sourceTree = "<group>";
+		};
+		73E730AB27769A07005857AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				73E730AC27769A48005857AD /* UpcomingLaunchTableViewCell.swift */,
+				73E730AD27769A48005857AD /* UpcomingLaunchTableViewCell.xib */,
+				73E730B22776A4D5005857AD /* SuccessfulLaunchTableViewCell.swift */,
+				73E730B32776A4D5005857AD /* SuccessfulLaunchTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		73E730B62776A94C005857AD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				73E730B72776A964005857AD /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E02A1274E001462B3B9ADAC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73E7309927767F58005857AD /* RxCocoa.framework */,
+				73E7309A27767F58005857AD /* RxRelay.framework */,
+				73E7309B27767F58005857AD /* RxSwift.framework */,
+				73E7308F27767E8D005857AD /* RxCocoa.framework */,
+				73E7309027767E8D005857AD /* RxRelay.framework */,
+				73E7309127767E8D005857AD /* RxSwift.framework */,
+				5E6BF7920FF6F245126609B3 /* Pods_rocketeer.framework */,
+				EB72BF56F28C20FE06CA122A /* Pods_rocketeer_rocketeerUITests.framework */,
+				94BC02A165ACF5B8FEB583D8 /* Pods_rocketeerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF926990F73BD95F969B196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2A21EAA1030C10936E86007 /* Pods-rocketeer.debug.xcconfig */,
+				83F2E35BFE7425EBE03D3279 /* Pods-rocketeer.release.xcconfig */,
+				1C8AA0942AB995128A890BC7 /* Pods-rocketeer-rocketeerUITests.debug.xcconfig */,
+				2350857C4940FC829DC86EAD /* Pods-rocketeer-rocketeerUITests.release.xcconfig */,
+				708C88A5542ED5A4D0A87653 /* Pods-rocketeerTests.debug.xcconfig */,
+				1C621BEBEAABF6528E95170D /* Pods-rocketeerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73DB90E727763811003F4DD5 /* Build configuration list for PBXNativeTarget "rocketeer" */;
 			buildPhases = (
+				379AC26B967AB0DA3081F292 /* [CP] Check Pods Manifest.lock */,
 				73DB90B92776380D003F4DD5 /* Sources */,
 				73DB90BA2776380D003F4DD5 /* Frameworks */,
 				73DB90BB2776380D003F4DD5 /* Resources */,
+				45AE20F3D1E921F0CFC69ABC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73DB90EA27763811003F4DD5 /* Build configuration list for PBXNativeTarget "rocketeerTests" */;
 			buildPhases = (
+				1AC1CE7F729D425451038200 /* [CP] Check Pods Manifest.lock */,
 				73DB90CF27763811003F4DD5 /* Sources */,
 				73DB90D027763811003F4DD5 /* Frameworks */,
 				73DB90D127763811003F4DD5 /* Resources */,
@@ -169,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73DB90ED27763811003F4DD5 /* Build configuration list for PBXNativeTarget "rocketeerUITests" */;
 			buildPhases = (
+				B4705F3BB11144088AF1F4E2 /* [CP] Check Pods Manifest.lock */,
 				73DB90D927763811003F4DD5 /* Sources */,
 				73DB90DA27763811003F4DD5 /* Frameworks */,
 				73DB90DB27763811003F4DD5 /* Resources */,
+				FF20B8967D68D7B89553EF22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +414,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E730B52776A4D5005857AD /* SuccessfulLaunchTableViewCell.xib in Resources */,
+				73E730AF27769A48005857AD /* UpcomingLaunchTableViewCell.xib in Resources */,
 				73DB90CD27763810003F4DD5 /* LaunchScreen.storyboard in Resources */,
 				73DB90CA27763810003F4DD5 /* Assets.xcassets in Resources */,
 				73DB90C82776380D003F4DD5 /* Main.storyboard in Resources */,
@@ -253,14 +438,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AC1CE7F729D425451038200 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rocketeerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		379AC26B967AB0DA3081F292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rocketeer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45AE20F3D1E921F0CFC69ABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rocketeer/Pods-rocketeer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rocketeer/Pods-rocketeer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rocketeer/Pods-rocketeer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4705F3BB11144088AF1F4E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rocketeer-rocketeerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF20B8967D68D7B89553EF22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rocketeer-rocketeerUITests/Pods-rocketeer-rocketeerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rocketeer-rocketeerUITests/Pods-rocketeer-rocketeerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rocketeer-rocketeerUITests/Pods-rocketeer-rocketeerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73DB90B92776380D003F4DD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73DB90C52776380D003F4DD5 /* ViewController.swift in Sources */,
+				73E730BA2776C0DC005857AD /* Ext+UIView.swift in Sources */,
+				73E730BC2776C44E005857AD /* Ext+UIImageView.swift in Sources */,
+				73E730C42776FAB6005857AD /* Ext+UIViewController.swift in Sources */,
+				73E730A4277691F8005857AD /* SuccessfulLaunchesViewController.swift in Sources */,
+				73E730B42776A4D5005857AD /* SuccessfulLaunchTableViewCell.swift in Sources */,
+				73E730AA27769491005857AD /* UpcomingLaunchesViewController.swift in Sources */,
+				73E7308B27767400005857AD /* AppConstants.swift in Sources */,
+				73E730AE27769A48005857AD /* UpcomingLaunchTableViewCell.swift in Sources */,
+				73E730A627769209005857AD /* RocketDetailsViewController.swift in Sources */,
 				73DB90C12776380D003F4DD5 /* AppDelegate.swift in Sources */,
 				73DB90C32776380D003F4DD5 /* SceneDelegate.swift in Sources */,
+				73E730C02776DDED005857AD /* Ext+Date.swift in Sources */,
+				73E730B82776A964005857AD /* MainViewController.swift in Sources */,
+				73E730862776704E005857AD /* APIClient.swift in Sources */,
+				73E730A827769240005857AD /* LaunchesViewModel.swift in Sources */,
+				73E730892776739B005857AD /* Endpoints.swift in Sources */,
+				73E7308E27767AC3005857AD /* LaunchesModel.swift in Sources */,
+				73E730C22776DE18005857AD /* Ext+String.swift in Sources */,
+				73E730B127769A68005857AD /* Ext+UITableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +726,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +738,7 @@
 		};
 		73DB90E827763811003F4DD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A21EAA1030C10936E86007 /* Pods-rocketeer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +767,7 @@
 		};
 		73DB90E927763811003F4DD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F2E35BFE7425EBE03D3279 /* Pods-rocketeer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +796,7 @@
 		};
 		73DB90EB27763811003F4DD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708C88A5542ED5A4D0A87653 /* Pods-rocketeerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +822,7 @@
 		};
 		73DB90EC27763811003F4DD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C621BEBEAABF6528E95170D /* Pods-rocketeerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +848,7 @@
 		};
 		73DB90EE27763811003F4DD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8AA0942AB995128A890BC7 /* Pods-rocketeer-rocketeerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +872,7 @@
 		};
 		73DB90EF27763811003F4DD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2350857C4940FC829DC86EAD /* Pods-rocketeer-rocketeerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
